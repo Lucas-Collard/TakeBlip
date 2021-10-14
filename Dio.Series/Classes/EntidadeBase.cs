@@ -8,9 +8,9 @@ namespace Dio.Series
 {
     public abstract class EntidadeBase
     {
-        public int id { get; protected set; }
-        //Atributos
+        public int Id { get; protected set; }
+       
 
-        private Genero Genero { get; set; }
+        
     }
 }
