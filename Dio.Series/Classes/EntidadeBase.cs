@@ -4,10 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Dio.Series.Classes
+namespace Dio.Series
 {
-    class EntidadeClasse
+    public abstract class EntidadeBase
     {
         public int id { get; protected set; }
+        //Atributos
+
+        private Genero Genero { get; set; }
     }
 }
